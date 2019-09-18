@@ -1,0 +1,106 @@
+/* -- carrousel à remplir -- */
+#carrousel{
+    width: 100%;
+    height: 250px;
+    background: yellow;
+}
+/* -------------------------------------------------- content  ------------------------------------------------------- */
+
+#content{
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+}
+
+/* ------ article ------ */
+
+#content #art{
+    background: red;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#content h2{
+    width:100%;
+    background:blue;
+    text-align: center;
+    font-size: 90px;
+    margin-bottom: 10px;
+    z-index: 3;
+}
+
+#content a div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: white 4px solid;
+    box-shadow: 0px  0px 100px black;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    padding: 10px;
+}
+
+#content a #megarama_bordeaux{
+    background: url("http://www.wasabicafe.fr/public/img/medium/deco20.jpg");
+    width: 1000px;
+    height: 150px;
+    font-size: 20px;
+}
+
+#content a #bordeaux_centre{
+    background: url("https://www.publicdomainpictures.net/pictures/130000/nahled/rice-1441603639BQw.jpg");
+    width: 1000px;
+    height: 150px;
+    font-size: 20px;
+}
+
+/* ------- article - texte ------- */
+
+#content #art_texte{
+    background: green;
+    font-size: 20px;
+    display:flex;
+    flex: wrap;
+    flex-direction: column;
+}
+#content #art_texte #devanture{
+    box-shadow: 0px 0px 100px black;
+    margin: 30px 15px;
+    border: 5px solid white;
+}
+
+#content #art_texte div{
+    width:100%;
+}
+
+#content #art_texte .bordeaux_texte{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* #content #art_texte #megarama_bordeaux_texte figure figcaption{
+    width:600px;
+    text-align: center;
+    display: inline-block;
+} */
+
+#content #art_texte .megarama_bordeaux_div{
+    width: 700px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+#content #art_texte .megarama_bordeaux_div:nth-of-type(2){
+    width:900px;
+}
+#content #art_texte div h3{
+    font-size: 25px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+#content #art_texte div p{
+    text-align: justify;
+}
+
