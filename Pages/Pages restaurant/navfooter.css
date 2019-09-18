@@ -82,10 +82,14 @@ header ul li h1{
 /* -- footer -- */
 
 footer{
-    background: #464241;
-    height: 50px;
+    background: transparent;
+    height: 100px;
     width: 100%;
     font-family: 'Reem Kufi', sans-serif;
+    box-shadow: 0 0 30px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer ul{
@@ -93,4 +97,11 @@ footer ul{
     flex-flow: column wrap;
     align-items: center;
     height: 50px;
+    position: relative;
+    left: -80px;
+}
+
+ul div{
+    text-align: center;
+    margin: 0 10px;
 }
