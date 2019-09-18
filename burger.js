@@ -5,13 +5,10 @@ if(window.addEventListener){
   window.attachEvent('onload', open);
 }
 
-
-
 function open(){
   //on cache la div
   header=document.getElementById('test')
   node = document.getElementById("foo")
-  essai = document.getElementById("titre")
   linker= document.querySelectorAll(".linker")
   console.log(titre) 
 }
@@ -24,7 +21,7 @@ function toggle() {
        for(var i=0;i<linker.length;i++){
         linker[i].classList.add('move')
        }
-      //  node.style.marginRight="-111px"
+      node.style.marginRight="-111px"
        
        console.log('visible');
      } else {
