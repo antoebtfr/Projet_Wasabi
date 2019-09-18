@@ -11,6 +11,11 @@
     color: white;
 }
 
+#ajust{
+    width: 100%;
+    height: 50px;
+}
+
 /* ------ article ------ */
 
 #content #art{
@@ -85,15 +90,13 @@
     display: inline-block;
 } */
 
-#content #art_texte .megarama_bordeaux_div{
+#content #art_texte #megarama_bordeaux_div{
     width: 700px;
     display: inline-block;
     margin-left: 10px;
     margin-top: 15px;
 }
-#content #art_texte .megarama_bordeaux_div:nth-of-type(2){
-    width:900px;
-}
+
 #content #art_texte div h3{
     font-size: 25px;
     margin: 10px;
@@ -104,3 +107,25 @@
     text-align: justify;
 }
 
+/* ------- Texte Paragraphe 2 ------ */
+
+#content #art_texte .bordeaux_centre_texte {
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+#megarama_bordeaux_div2{
+    background: yellow;
+    text-align: center;
+    color: green;
+    width: 1200px; 
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+}
