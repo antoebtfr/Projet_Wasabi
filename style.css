@@ -1,184 +1,35 @@
-/* Minimal reset css */
-:root {
-    --color-black: #474342;
-    --color-rose: #fcbfaa;
-    --color-white: #f2fafc;
-}
-
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-    color: #f2fafc;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-body {
-    background-image: url(img/background/bg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-section > h1 section > h2,
-section > p {
-    font-family: 'Reem Kufi', 'sans-serif';
-}
-
-section > h1 {
-    text-align: center;
-    font-size: 6rem;
-    margin: 5%;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-family: 'Reem Kufi', 'sans-serif';
-}
-
-section > h2 {
-    margin-left: 5%;
-    margin-bottom: 10px;
-    font-size: 2em;
-    font-family: 'Reem Kufi', 'sans-serif';
-
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-#container {
+.container{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
+	flex-direction: column;
+}
+.block-container{
+    display:flex;
+    /* flex-direction: column;*/ /* pour mediaqueries */
+    margin: 1em;
+    padding: 0.5em;
+    width: 100%;
+    min-width: 0;
+    color: white;
 }
 
-.block {
-    border: 2px solid #f2fafc;
-    margin-bottom: 50px;
-    height: 150px;
-    transition: 0.5s;
+.block.un,.block.quatre,.block.cinq{
+    flex: 2 0 auto;
+    background-color: #1B5385;
+    margin-right: 2%;
 }
 
-.block:hover {
-    border: 5px solid #fcbfaa;
-    transition: 0.5s;
+.block.deux,.block.trois,.block.six{
+    flex: 1 0 auto;
+    background-color: #1B5385;
+    margin-right: 2%;
 }
 
-.block.un {
-    background-image: url(img/576x160/maki.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.block-image{
+    width:100%;
+    height:150px;
+    background-color:grey;
 }
 
-.block.deux {
-    background-image: url(img/384x160/salmon_maki.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block.trois {
-    background-image: url(img/384x160/salmon_sachimi.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block.quatre {
-    background-image: url(img/576x160/sushi.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block.cinq {
-    background-image: url(img/576x160/yakitori.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.block.six {
-    background-image: url(img/384x160/sushi3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.block.un,
-.block.quatre,
-.block.cinq {
-    width: 54%;
-    height: 25vh;
-}
-
-.block.deux,
-.block.trois,
-.block.six {
-    width: 37%;
-    height: 25vh;
-}
-
-#container p {
-    display: block;
-    text-align: center;
-    margin: 95px auto 0px auto;
-    font-size: 2.5em;
-    color: #f0efef;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    transition: 0.5s;
-}
-
-#container p:hover {
-    font-size: 2.8em;
-    transition: 0.5s;
-    color: black;
-    text-shadow: #f0efef 0.1em 0.1em 0.2em;
-}
-
-@media screen and (max-width: 961px) {
-    #container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        width: 90%;
-        border: 1px solid black;
-        margin: auto;
-    }
-
-    .block.un,
-    .block.quatre,
-    .block.cinq {
-        width: 100%;
-    }
-
-    .block.deux,
-    .block.trois,
-    .block.six {
-        width: 100%;
-    }
-
-
+.block-text{
+    margin-top:2%;
 }
