@@ -9,23 +9,29 @@
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="burger.css" type="text/css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header>
-        <ul>
-            <li>
+    <header id="test">
+        <ul id="foo">
+            <label class="switch">
+                <input type="checkbox" onclick="return toggle();">
+                <span class="slider round"></span>
+            </label>
+            <li id="titre">
                 <h1><a href="index.html">WASABI</a></h1>
             </li>
-            <li><a href="#">A la carte </a></li>
-            <li><a href="#">Le restaurant</a> </li>
-            <li><a href="#">Contact</a> </li>
+            <li class="linker"><a href="#">A la carte </a></li>
+            <li class="linker"><a href="#">Nos restaurants</a> </li>
+            <li class="linker"><a href="#">Contact</a> </li>
         </ul>
     </header>
 
-    <!-- carrousel à remplir -->
-    <section id="carrousel">
+    <!-- banniere à remplir -->
+    <section id="banniere">
+        <h1> WASABI </h1>
     </section>
 
     <!-- content -->
@@ -50,8 +56,7 @@
             <div class="bordeaux_texte">
                 <div id="ancre1"></div>
                 <figure>
-                    <img id="cap1" src="trajet_mega_wasa.png" alt="#"
-                        style="width:600px;height:300px;display:inline-block;">
+                    <img id="cap1" src="trajet_mega_wasa.png" alt="#">
                     <!-- <figcaption for="cap1"> Capture d'écran prise sur google.maps.com </figcaption> -->
                 </figure>
 
@@ -89,7 +94,7 @@
                         Réservation.</p>
                 </div>
                 <figure>
-                    <img id="cap2" src="pdp_bdx.jpg" alt="" style="width:400px;height:600px;display:inline-block;">
+                    <img id="cap2" src="pdp_bdx.jpg" alt="">
                 </figure>
             </div>
         </article>
@@ -110,8 +115,8 @@
 
     </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="script.js">
-    </script>
+    <script src="script.js"></script>
+    <script src="burger.js"></script>
 </body>
 
 </html>
