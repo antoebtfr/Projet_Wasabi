@@ -98,10 +98,10 @@ footer ul{
     align-items: center;
     height: 50px;
     position: relative;
-    left: -80px;
+    left: -40px;
 }
 
-ul div{
+ul li ul{
     text-align: center;
     margin: 0 10px;
 }
