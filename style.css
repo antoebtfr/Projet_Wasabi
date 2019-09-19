@@ -87,7 +87,7 @@ img {
 }
 
 .block.un,.block.quatre,.block.cinq{
-    flex: 2 0 auto;
+    flex: 3 0 auto;
     margin-right: 2%;
 }
 
