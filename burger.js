@@ -1,16 +1,37 @@
 if (window.addEventListener) {
   window.addEventListener('load', open, false);
 
+<<<<<<< HEAD
 } else {
   window.attachEvent('onload', open);
 }
 
+=======
+
+} else {
+  window.attachEvent('onload', open);
+
+}
+
+// function timedRefresh(timeoutPeriod) {
+// 	setTimeout("location.reload(true);",timeoutPeriod);
+// }
+
+// window.onload = timedRefresh(5000);
+
+>>>>>>> hotfix2
 function open() {
   //on cache la div
   header = document.getElementById('test')
   node = document.getElementById("foo")
   linker = document.querySelectorAll(".linker")
   console.log(titre)
+<<<<<<< HEAD
+=======
+  if(window.innerWidth<800){
+    console.log('test')
+  }
+>>>>>>> hotfix2
 }
 
 function toggle() {

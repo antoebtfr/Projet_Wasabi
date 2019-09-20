@@ -45,7 +45,11 @@ body {
 }
 
 section > h1 section > h2,
+<<<<<<< HEAD
 .bloc-text {
+=======
+.block-text {
+>>>>>>> hotfix2
     font-family: 'Reem Kufi', 'sans-serif';
 }
 
@@ -58,7 +62,11 @@ section > h1 {
 }
 
 section > h2 {
+<<<<<<< HEAD
     margin-left: 2%;
+=======
+    margin-left: 5%;
+>>>>>>> hotfix2
     margin-bottom: 10px;
     font-size: 2em;
     font-family: 'Reem Kufi', 'sans-serif';
@@ -72,6 +80,7 @@ img {
 
 /* -------Deut ajout container -------*/
 
+<<<<<<< HEAD
 .container {
     display: flex;
     flex-direction: column;
@@ -103,10 +112,33 @@ img {
 .block.deux,
 .block.trois,
 .block.six {
+=======
+.container{
+    display: flex;
+	flex-direction: column;
+}
+.block-container{
+    display:flex;
+    /* flex-direction: column;*/ /* pour mediaqueries */
+    margin: 1em;
+    padding: 0.5em;
+    width: 100%;
+    min-width: 0;
+    color: white;
+}
+
+.block.un,.block.quatre,.block.cinq{
+    flex: 3 0 auto;
+    margin-right: 2%;
+}
+
+.block.deux,.block.trois,.block.six{
+>>>>>>> hotfix2
     flex: 1 0 auto;
     margin-right: 2%;
 }
 
+<<<<<<< HEAD
 .block-image {
     width: 100%;
     height: 146px;
@@ -116,6 +148,17 @@ img {
 .block-text {
     margin-top: 2%;
     opacity: 0;
+=======
+.block-image{
+    width:100%;
+    height:146px;
+    background-color:grey;
+}
+
+.block-text{
+    opacity:0;
+    margin-top:2%;
+>>>>>>> hotfix2
 }
 
 /* --------Fin ajout container --------*/
@@ -129,12 +172,17 @@ img {
 }
 
 
+<<<<<<< HEAD
 .block-image {
+=======
+.block-image{
+>>>>>>> hotfix2
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .block-image.un {
+<<<<<<< HEAD
     background-image: url(img/img/1.png);
 }
 
@@ -152,22 +200,53 @@ img {
 
 .block-image.cinq {
     background-image: url(img/img/5.png);
+=======
+    background-image: url(img/576x160/maki.png);
+}
+
+.block-image.deux {
+    background-image: url(img/384x160/salmon_maki.png);
+}
+
+.block-image.trois {
+    background-image: url(img/384x160/salmon_sachimi.png);
+}
+
+.block-image.quatre {
+    background-image: url(img/576x160/sushi.png);
+}
+
+.block-image.cinq {
+    background-image: url(img/576x160/yakitori.png);
+>>>>>>> hotfix2
 
 }
 
 .block-image.six {
+<<<<<<< HEAD
     background-image: url(img/img/6.png);
+=======
+    background-image: url(img/384x160/sushi3.png);
+>>>>>>> hotfix2
 }
 
 /* ------Fin ajout image------- */
 
 .my-text {
+<<<<<<< HEAD
     text-align: center;
     position: relative;
     top: 40%;
     font-size: 2rem;
     color: #fcbfaa;
     text-shadow: 2px 2px 5px black;
+=======
+    font-family: 'Reem Kufi', 'sans-serif';
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+    top: 40%;
+>>>>>>> hotfix2
 }
 
 .block:hover .block-text {
@@ -176,6 +255,7 @@ img {
 }
 
 @media screen and (max-width: 961px) {
+<<<<<<< HEAD
     .container {
         display: flex;
         flex-direction: column;
@@ -183,6 +263,14 @@ img {
 
     .block-container {
         display: flex;
+=======
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .block-container{
+        display:flex;
+>>>>>>> hotfix2
         flex-direction: column;
         margin: 0em;
         padding: 0.5em;
@@ -190,7 +278,10 @@ img {
         min-width: 0;
         color: white;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> hotfix2
     .block.un,
     .block.quatre,
     .block.cinq {
@@ -202,10 +293,18 @@ img {
     .block.six {
         width: 100%;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> hotfix2
     .block:hover .block-text {
         transition: all 1s;
         opacity: 1;
     }
 
+<<<<<<< HEAD
 }
+=======
+
+}
+>>>>>>> hotfix2

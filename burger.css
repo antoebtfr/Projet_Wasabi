@@ -8,6 +8,19 @@
   top: 0px;
 }
 
+<<<<<<< HEAD
+=======
+.barre {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffffa1;
+  margin: 6px 0;
+  top: -16px;
+  position: relative;
+  left: 9px;
+}
+
+>>>>>>> hotfix2
 .test {
   visibility: visible;
 }
@@ -67,7 +80,20 @@ input:checked+.slider:before {
   -webkit-border-radius: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+@media screen and (min-width: 800px) {
+
+  #foo,
+  #titre,
+  .linker {
+    visibility: visible;
+
+  }
+
+}
+>>>>>>> hotfix2
 
 @media screen and (max-width: 800px) {
   header {
@@ -79,10 +105,16 @@ input:checked+.slider:before {
     visibility: visible;
   }
 
+<<<<<<< HEAD
   #foo,
   #titre {
     visibility: hidden;
     margin-right: -111px;
+=======
+  #foo {
+    visibility: hidden;
+
+>>>>>>> hotfix2
   }
 
   header.size {
@@ -94,5 +126,23 @@ input:checked+.slider:before {
     margin-top: 50px;
   }
 
+<<<<<<< HEAD
+=======
+  #titre {
+    position: relative;
+
+    right: -45px;
+
+    top: -16px;
+  }
+
+  li.linker:nth-child(2),
+  li.linker:nth-child(3),
+  li.linker:nth-child(4) {
+    position: relative;
+
+    right: 118px;
+  }
+>>>>>>> hotfix2
 
 }
