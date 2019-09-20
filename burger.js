@@ -1,9 +1,17 @@
 if (window.addEventListener) {
   window.addEventListener('load', open, false);
 
+
 } else {
   window.attachEvent('onload', open);
+
 }
+
+// function timedRefresh(timeoutPeriod) {
+// 	setTimeout("location.reload(true);",timeoutPeriod);
+// }
+
+// window.onload = timedRefresh(5000);
 
 function open() {
   //on cache la div
@@ -11,6 +19,9 @@ function open() {
   node = document.getElementById("foo")
   linker = document.querySelectorAll(".linker")
   console.log(titre)
+  if(window.innerWidth<800){
+    console.log('test')
+  }
 }
 
 function toggle() {
